@@ -31,3 +31,10 @@ python -m attack.RemovalNet.removalnet -model1 "train(vgg19_bn,CIFAR10)-" -subse
 
 The pretrained target model can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1rRZDmPUPrSLjCgqwsn9rJsKmLxGZFMWK?usp=drive_link)
 
+# Getting the benchmark!
+```shell
+python benchmark.py -dataset HAM10000 -model1 "train(resnet50,HAM10000)" -seed 1000 -device 0
+```
+
+
+
