@@ -31,17 +31,3 @@ python -m attack.RemovalNet.removalnet -model1 "train(vgg19_bn,CIFAR10)-" -subse
 
 The pretrained target model can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1rRZDmPUPrSLjCgqwsn9rJsKmLxGZFMWK?usp=drive_link)
 
-
-# Citation
-```text
-@article{yao2023removalnet,
-  title={RemovalNet: DNN Fingerprint Removal Attacks},
-  author={Yao, Hongwei and Li, Zheng and Huang, Kunzhe and Lou, Jian and Qin, Zhan and Ren, Kui},
-  journal={IEEE Transactions on Dependable and Secure Computing},
-  year={2023},
-  publisher={IEEE}
-}
-```
-
-# License
-This library is under the MIT license. For the full copyright and license information, please view the LICENSE file that was distributed with this source code.
